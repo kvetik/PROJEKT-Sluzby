@@ -153,25 +153,28 @@ body {
     .hlavicka {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin: 0;
     }
-
+  
     .happy-traveller {
-        flex: 1 1 50%;
-        width: 426px;
-        height: 354px;
-
+        flex: 1;
+        margin-left: 60px;
     }
-
+  
     .happy-travels {
-        flex: 1 1 50%;
+        flex: 1;
         text-align: left;
-        
+        align-content: flex-start;
     }
-    
+  
     .happy-traveller, .happy-travels {
         max-width: 490px;
     }
+
+
+
+}
    
 
       
-}
