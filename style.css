@@ -195,6 +195,7 @@ body {
     }
 
     .dlazdice {
+        display: flex;
         gap: 20px;
         max-width: 550px;
         justify-content: space-evenly;
@@ -204,7 +205,9 @@ body {
     .delegati {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         margin: 0 80px;
+        margin-bottom: 60px;
         
     }
 
